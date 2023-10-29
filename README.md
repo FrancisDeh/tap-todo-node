@@ -2,7 +2,7 @@
 
 ### Setup project
 ```
-git clone url
+git clone git@github.com:FrancisDeh/tap-todo-node.git
 
 cd tap-todo-node
 
