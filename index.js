@@ -13,7 +13,7 @@ app.use("/todos", todoRoutes)
 
 // configure database
 mongoose.connect(process.env.MONGO_DB_URL).then(() => {
-    console.log("Connected succesfully to database")
+    console.log("Connected successfully to database")
     app.listen(PORT, () => console.log(`Server started on port ${PORT} 🔥`))
 }).catch(error => {
     console.log(error)

@@ -14,7 +14,8 @@ const TodoSchema = mongoose.Schema({
         type: Boolean,
         default: false
     }
-})
+}, { timestamps: true }
+)
 
 // a model - our way of interacting with the schema/ table in the db
 const Todo = mongoose.model("Todo", TodoSchema)
